@@ -1,0 +1,1 @@
+enum flavour {dev, staging, prod}
