@@ -30,7 +30,7 @@ class MyHomePage extends StatelessWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
 
-  // always marked "final".
+
 
   final String title;
 
@@ -40,9 +40,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
 
     final counter = Provider.of<Counter>(context);
-    //final yayo = Provider.of<Counter>(context);
-    
-    //final yo = Provider.of<flavour>(context);
+
     return new Scaffold(
       appBar: new AppBar(
         title: new Text(flavour.prod.toString()),
