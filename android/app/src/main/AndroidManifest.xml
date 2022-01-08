@@ -2,7 +2,7 @@
     package="com.maxmil_tut">
    <application
         android:label="maxmil_tut"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
