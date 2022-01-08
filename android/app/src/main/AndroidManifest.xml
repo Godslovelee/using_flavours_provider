@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.maxmil_tut">
    <application
-        android:label="maxmil_tut"
+        android:label="flavour sample"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
